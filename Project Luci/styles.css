@@ -1,0 +1,601 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffdeb;
+  z-index:-2;
+}
+
+header {
+  background-color: #fffdeb;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Logo {
+  width: 150px;
+  padding: 0.4rem;
+  margin: 0px 0px 0px 25px;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+.navbar {
+  position: relative;
+  padding: 0px;
+  justify-content: space-evenly;
+}
+
+.navbar ul {
+  list-style: none;
+  background-color: #fffdeb;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.navbar li {
+  display: inline-block;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #886f68;
+  width: 100px;
+  display: block;
+  padding: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+  justify-content: space-evenly;
+}
+
+.navbar a:hover {
+  color: #271033;
+}
+
+h2 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: -2;
+}
+
+.spacers {
+  margin: 10px 10px 10px 10px;
+}
+
+.h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+}
+
+.s1 {
+  margin: 20px 0px 20px 0px;
+}
+
+.parent-p1 {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+h3 {
+  font-size: 35px; 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  display: grid;
+}
+
+.container1 {
+  display: grid;
+  margin: 150px 150px 0px 0px;
+}
+
+form {
+  display: inline;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+input[name="Training"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #271033;
+  color: #fffdeb;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+input[name="Quiz"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #886f68;
+  color: #fffdeb;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+.p1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.book {
+  width: 110%;
+  height: 700px;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  border-radius: 0px;
+  background:url(Phone.png) center;
+  -webkit-mask: linear-gradient(
+    to left,
+    transparent 1%,
+    #fffdeb 100%
+  );
+  background-repeat: no-repeat;
+  background-color: #D1CCDC;
+}
+
+.h2 {
+  border: 0px solid #886f68;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 0px;
+  background-color: #fffdeb;
+  padding: 50px;
+}
+
+.s2 {
+  margin: 20px 0px 20px 0px;
+  display: none;
+}
+
+.header2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 50px 0px;
+}
+
+.parent-p2 {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.p2 {
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.planner {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+  border-radius: 50px;
+}
+
+.h3 {
+  border: 0px solid #886f68;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  
+}
+
+.s3 {
+  margin: 20px 0px 20px 0px;
+  display: none;
+}
+
+.parent-p3 {
+  background-color: #D1CCDC;
+  position: relative;
+  display: grid;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 0px 100px 0px 100px;
+  padding: 175px;
+}
+
+.header3 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 50px 0px;
+}
+
+.p3 {
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img1_p3 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+  border-radius: 50px;
+}
+
+.img2_p3 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+  border-radius: 50px;
+}
+
+.h4 {
+  border: 0px solid #886f68;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  margin: 100px 10px 100px 10px;
+}
+
+.s4 {
+  margin: 20px 0px 20px 0px;
+}
+
+.parent-p4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contents4 {
+  display: grid;
+}
+
+.header4 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 0px 50px 0px;
+}
+
+.p4 {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.headshot-container {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.headshot {
+  width: 417px;
+  height: 520px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+}
+
+.h5 {
+  border: 0px solid #886f68;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 100px 0px 100px 0px;
+  background-color: #dfdfe2;
+}
+
+.s5 {
+  margin: 20px 0px 20px 0px;
+}
+
+.parent-p5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contents5 {
+  display: grid;
+}
+
+.header5 {
+  display: grid;
+  text-align: left;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.p5 {
+  font-size: 30px;
+  text-align: left;
+  align-items: center;
+  display: inline-block;
+}
+
+.text-container5 {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+}
+
+.option1 {
+  display: grid;
+  text-align: center;
+  background: #fffdeb;
+  margin: 0px 50px 15px 50px;
+  padding: 75px 0px 75px 0px;
+}
+
+.option2 {
+  display: grid;
+  text-align: center;
+  background: #fffdeb;
+  margin: 15px 50px 0px 50px;
+  padding: 75px 0px 75px 0px;
+}
+
+.header6 {
+  padding-bottom: 25px;
+}
+
+.header7 {
+  padding-bottom: 25px;
+}
+
+input[name="Apply"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #271033;
+  color: #fffdeb;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+input[name="Learn"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #271033;
+  color: #fffdeb;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+.p6 {
+  margin: 10px;
+}
+
+.p7 {
+  margin: 10px;
+}
+
+.h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+}
+
+.s6 {
+  margin: 20px 0px 20px 0px;
+}
+
+.parent-p6 {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.p8 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 15px;
+}
+
+.contact-me {
+  width: 110%;
+  height: 700px;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  border-radius: 0px;
+  background:url(Contact\ Me.png) center;
+  -webkit-mask: linear-gradient(
+    to left,
+    transparent 1%,
+    #fffdeb 100%
+  );
+  background-repeat: no-repeat;
+  background-color: #D1CCDC;
+}
+
+.container2 {
+  display: grid;
+  margin: 50px 50px 50px 0px;
+  background-color: #D1CCDC;
+  padding: 10px;
+}
+
+fieldset {
+  font-size: 15px;
+  display: grid;
+  border: 0px;
+}
+
+.form-container {
+  border: 1px solid #D1CCDC;
+  padding: 10px;
+  background-color: #D1CCDC;
+}
+
+label {
+  padding: 10px;
+}
+
+input[name="first-name"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 100px;
+}
+
+input[name="email"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 100px;
+}
+
+input[name="find-me"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 100px;
+}
+
+input[name="message"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 40px 100px;
+}
+
+input[name="Submit"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #886f68;
+  color: #fffdeb;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+footer {
+  background-color: #271033;
+  bottom: 0;
+  left: 0;
+  position: relative;
+}
+
+footer,
+footer a {
+  color: #dfdfe2;
+}
+
+.social-icons {
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.social-icons a {
+  color: #886f68;
+}
+
+address {
+  text-align: center;
+  padding: 1.0em;
+}
