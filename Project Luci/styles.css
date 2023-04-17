@@ -1,3 +1,299 @@
+@media (max-width: 599px) {
+  /* Mobile Phones */
+  header {
+    display: grid;
+    background-color: #fffdeb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h1 {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  }
+
+  .h1 {
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #D1CCDC;
+  }
+
+  .book {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    background:url(Phone.png) center;
+    -webkit-mask: linear-gradient(
+      to bottom,
+      transparent 0.1%,
+      #fffdeb 100%
+    );
+    background-repeat: no-repeat;
+    background-color: #D1CCDC;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container1 {
+    display: grid;
+  }
+
+  h3 {
+    font-size: 35px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    margin: 20px;
+  }
+
+  .parent-p3 {
+    background-color: #D1CCDC;
+    position: relative;
+    display: grid;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0px 20px 0px 25px;
+    padding: 50px;
+}
+
+.parent-p4 {
+  display: grid;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.headshot {
+  width: 208px;
+  height: 260px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+}
+
+.contents4 {
+  padding: 50px;
+}
+
+.s5 {
+  padding: 0;
+  margin: 0;
+}
+
+.parent-p5 {
+  display: grid;
+}
+
+.h5 {
+  border: 0px solid #886f68;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 25px 0px 25px 0px;
+  background-color: #dfdfe2;
+}
+
+.header5 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.p5 {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.container2 {
+  display: grid;
+  margin: 50px 0px 20px 0px;
+  background-color: #D1CCDC;
+  padding: 0px;
+}
+
+.header8 {
+  margin: 0px;
+}
+
+input[name="Submit"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #886f68;
+  color: #fffdeb;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin: 20px 0px 20px 0px;
+}
+
+
+.spacers {
+  margin: 0px;
+}
+  
+}
+
+@media (min-width: 600px) {
+
+  header {
+    background-color: #fffdeb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+  }
+
+  .h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+  }
+
+  .book {
+    width: 110%;
+    height: 700px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    background:url(Phone.png) center;
+    -webkit-mask: linear-gradient(
+      to left,
+      transparent 1%,
+      #fffdeb 100%
+    );
+    background-repeat: no-repeat;
+    background-color: #D1CCDC;
+  }
+
+  .container1 {
+    display: grid;
+    margin: 150px 150px 0px 0px;
+  }
+
+  h3 {
+    font-size: 35px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    display: grid;
+  }
+
+  .parent-p3 {
+    background-color: #D1CCDC;
+    position: relative;
+    display: grid;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0px 100px 0px 100px;
+    padding: 175px;
+  }
+
+  .h4 {
+    border: 0px solid #886f68;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    margin: 100px 10px 100px 10px;
+  }
+
+  .parent-p4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .headshot {
+    width: 417px;
+    height: 520px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+}
+
+.parent-p5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.h5 {
+  border: 0px solid #886f68;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 100px 0px 100px 0px;
+  background-color: #dfdfe2;
+}
+
+.header5 {
+  display: grid;
+  text-align: left;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.p5 {
+  font-size: 30px;
+  text-align: left;
+  align-items: center;
+  display: inline-block;
+}
+
+.container2 {
+  display: grid;
+  margin: 50px 50px 50px 0px;
+  background-color: #D1CCDC;
+  padding: 10px;
+}
+
+input[name="Submit"] {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #886f68;
+  color: #fffdeb;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 20px;
+  border-radius: 0px;
+  border-width: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+
+.spacers {
+  margin: 10px 10px 10px 10px;
+}
+
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -17,22 +313,10 @@ body {
   z-index:-2;
 }
 
-header {
-  background-color: #fffdeb;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 #Logo {
   width: 150px;
   padding: 0.4rem;
   margin: 0px 0px 0px 25px;
-}
-
-h1 {
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
-  align-items: center;
 }
 
 .navbar {
@@ -81,17 +365,6 @@ h2 {
   z-index: -2;
 }
 
-.spacers {
-  margin: 10px 10px 10px 10px;
-}
-
-.h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 15px;
-  margin: 0px 0px 0px 0px;
-  display: flex;
-}
-
 .s1 {
   margin: 20px 0px 20px 0px;
 }
@@ -101,19 +374,6 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-}
-
-h3 {
-  font-size: 35px; 
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  align-items: center;
-  display: grid;
-}
-
-.container1 {
-  display: grid;
-  margin: 150px 150px 0px 0px;
 }
 
 form {
@@ -163,24 +423,7 @@ input[name="Quiz"] {
   margin-top: 50px;
 }
 
-.book {
-  width: 110%;
-  height: 700px;
-  display: flex;
-  justify-content: right;
-  text-align: right;
-  align-items: center;
-  margin: 0px 0px 0px 0px;
-  border-radius: 0px;
-  background:url(Phone.png) center;
-  -webkit-mask: linear-gradient(
-    to left,
-    transparent 1%,
-    #fffdeb 100%
-  );
-  background-repeat: no-repeat;
-  background-color: #D1CCDC;
-}
+
 
 .h2 {
   border: 0px solid #886f68;
@@ -240,16 +483,6 @@ input[name="Quiz"] {
   display: none;
 }
 
-.parent-p3 {
-  background-color: #D1CCDC;
-  position: relative;
-  display: grid;
-  text-align: center;
-  justify-content: space-evenly;
-  margin: 0px 100px 0px 100px;
-  padding: 175px;
-}
-
 .header3 {
   display: flex;
   text-align: center;
@@ -288,21 +521,8 @@ input[name="Quiz"] {
   border-radius: 50px;
 }
 
-.h4 {
-  border: 0px solid #886f68;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 15px;
-  margin: 100px 10px 100px 10px;
-}
-
 .s4 {
   margin: 20px 0px 20px 0px;
-}
-
-.parent-p4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
 }
 
 .contents4 {
@@ -331,48 +551,8 @@ input[name="Quiz"] {
   align-items: center;
 }
 
-.headshot {
-  width: 417px;
-  height: 520px;
-  border-top-right-radius: 200px;
-  border-top-left-radius: 200px;
-}
-
-.h5 {
-  border: 0px solid #886f68;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 100px 0px 100px 0px;
-  background-color: #dfdfe2;
-}
-
-.s5 {
-  margin: 20px 0px 20px 0px;
-}
-
-.parent-p5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
-
 .contents5 {
   display: grid;
-}
-
-.header5 {
-  display: grid;
-  text-align: left;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  margin-bottom: 25px;
-}
-
-.p5 {
-  font-size: 30px;
-  text-align: left;
-  align-items: center;
-  display: inline-block;
 }
 
 .text-container5 {
@@ -493,13 +673,6 @@ input[name="Learn"] {
   background-color: #D1CCDC;
 }
 
-.container2 {
-  display: grid;
-  margin: 50px 50px 50px 0px;
-  background-color: #D1CCDC;
-  padding: 10px;
-}
-
 fieldset {
   font-size: 15px;
   display: grid;
@@ -508,7 +681,7 @@ fieldset {
 
 .form-container {
   border: 1px solid #D1CCDC;
-  padding: 10px;
+  padding: 0px;
   background-color: #D1CCDC;
 }
 
@@ -550,21 +723,6 @@ input[name="message"] {
   font-size: 12px;
   font-weight: 700;
   padding: 40px 100px;
-}
-
-input[name="Submit"] {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: #886f68;
-  color: #fffdeb;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 20px 20px;
-  border-radius: 0px;
-  border-width: 0px;
-  margin: 20px 0px 0px 0px;
 }
 
 footer {
